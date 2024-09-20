@@ -1,0 +1,25 @@
+@import url('colors.css');
+.navbar{
+    background-color: var(--main-color) !important;
+    padding: 15px !important;
+   
+}
+.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: var(--main-color) !important; /* Change to your desired color */
+}
+.navbar .navbar-nav a{
+     color: var( --nabbar-text-color) !important;
+}
+.navbar .navbar-nav a:hover{
+    color: var(--white-color) !important;
+    border-bottom: 2px solid var(--white-color) !important;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+.navbar-brand {
+    color: var(--white-color) !important;
+}
+.container-fluid{
+    justify-content: space-evenly !important;
+}
